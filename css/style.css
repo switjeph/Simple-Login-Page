@@ -1,0 +1,112 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: -webkit-gradient(to right, #155799, #159957);
+    background: linear-gradient(to right, #155799, #159957);
+    color: whitesmoke;
+}
+
+h1 {
+    text-align: center;
+}
+
+form {
+    width: 35rem;
+    margin: auto;
+    color: whitesmoke;
+    backdrop-filter: blur(16px) saturate(180%);
+    -wibkit-backdrop-filter: blur(16px) saturate(180%);
+    background-color: rgba(11, 15, 13, 0.582);
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.125);
+    padding: 20px 25px;
+}
+
+input[type=text], input[type=password] {
+    width: 200px;
+    margin: 10px 0;
+    border-radius: 5px;
+    padding: 15px 18px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: blue;
+    color: white;
+    padding: 14px 20px;
+    border-radius: 5px;
+    margin: 7px 0;
+    width: 100%;
+    font-size: 18px;
+}
+
+button:hover {
+    opacity: 0.6;
+    cursor: pointer;
+}
+
+.headings-container {
+    text-align: center;
+}
+
+.headings-container p {
+    color: gray;
+}
+
+.main-container {
+    margin: 20px;
+    padding: px;
+}
+
+.sub-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.sub-container a {
+    padding: 5px 10px;
+    font-size: 16px;
+    margin-bottom: 12px;
+}
+
+span.forgot-pwd a {
+    float: right;
+    color: whitesmoke;
+    margin: 10px;
+    padding-right: 20px;
+    padding-top: 16px;
+}
+
+.forgot-pwd a {
+    color: rgb(74, 146, 235);
+}
+
+.forgot-pwd a:link {
+    text-decoration: none;
+}
+
+.register {
+    color: white;
+    text-align: center;
+}
+
+.register a {
+    color: rgb(74, 146, 135);
+}
+
+.register a:link {
+    text-decoration: none;
+}
+
+@media screen and (max-width: 600px) {
+    form {
+        width: 20rem;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    form {
+        width: 20rem;
+    }
+}
